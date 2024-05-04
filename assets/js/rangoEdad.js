@@ -1,4 +1,4 @@
-edadUsuario = parseInt(prompt('Ingrese su edad en años: '))
+let edadUsuario = parseInt(prompt('Ingrese su edad en años: '))
 
 if (edadUsuario == 0 && edadUsuario <= 12) {
     console.log('Se encuentra en el rango de edad: niño')

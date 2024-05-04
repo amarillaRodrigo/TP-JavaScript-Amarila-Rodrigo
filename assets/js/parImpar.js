@@ -1,4 +1,4 @@
-numero = parseInt(prompt('Ingrese un numero entero:'));
+let numero = parseInt(prompt('Ingrese un numero entero:'));
 
 if (numero % 1 === 0) {
     if (numero % 2 === 0) {
