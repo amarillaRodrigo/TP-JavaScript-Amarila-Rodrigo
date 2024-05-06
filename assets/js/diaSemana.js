@@ -18,5 +18,5 @@ if (diaSemana >= 1 && diaSemana <= 7){
         break;
     }
 } else {
-    console.log('No ha ingresado un numero del 1 al 7, vuelva a intentarlo.')
+    console.log('No ha ingresado un numero del 1 al 7, intente nuevamente.')
 }
