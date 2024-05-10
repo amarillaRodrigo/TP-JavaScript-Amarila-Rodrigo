@@ -5,7 +5,7 @@ let notaSegundo = parseInt(prompt('Ingrese una nota para el segundo trimestr:'))
 let notaTercero = parseInt(prompt('Ingrese una nota para el tercer trimestre:'))
 
 
-let promedio =  (notaPrimero + notaSegundo + notaTercero) / 3;
+let promedio = (notaPrimero + notaSegundo + notaTercero) / 3;
 
 
 if (promedio > 0 && promedio <=10){
@@ -33,5 +33,5 @@ if (promedio > 0 && promedio <=10){
             break;
     }
 } else {
-    console.log('El promedio no pudo ser calculado porque no ha ingresado notas validas.')
-}
+    console.log('El promedio no pudo ser calculado porque no ha ingresado notas validas.');
+};
