@@ -2,6 +2,20 @@ let articulo = prompt('¿Que articulo compra?');
 let numArticulos = parseInt(prompt('Cuantas unidades lleva?'))
 let precioUnit = parseInt(prompt('Ingrese el precio de su producto por unidad:'))
 
+if (
+    isNaN(numArticulos) ||
+    isNaN(precioUnit) ||
+    !isNaN(articulo) ||
+    numArticulos == "" ||
+    precioUnit == "" ||
+    articulo == "" 
+  ) {
+    console.log
+    (
+      "INGRESE SOLO VALORES NUMÉRICOS PARA LA CANTIDAD Y EL PRECIO, Y UN VALOR DE TEXTO PARA EL NOMBRE DEL ARTÍCULO."
+    )
+    };
+
 if(numArticulos > 1) {
     let precioTotal = numArticulos * precioUnit;
     if (numArticulos >= 10){
